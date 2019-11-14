@@ -1,1 +1,6 @@
 /* Document: CSS style sheet */
+
+html {
+    color: black;
+    background-color: lightblue;
+}
