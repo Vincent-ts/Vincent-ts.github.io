@@ -2,5 +2,15 @@
 
 html {
     color: black;
-    background-color: lightblue;
+    background-color: rgb(183, 236, 253);
+}
+#bignav {
+    margin: 0;
+    background-color: rgb(38, 82, 139),;
+    padding: 0;
+}
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
