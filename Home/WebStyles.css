@@ -23,6 +23,9 @@ body {
     float: left;
     margin-bottom: 0;
 }
+#topLeft {
+    padding-left: 10px;
+}
 .link {
     display: inline;
     margin: 0;
@@ -39,6 +42,23 @@ a {
 a:hover {
     color: white;
 }
-#homeH1 {
+#mainHeader {
     text-align: center;
+}
+.imgContainer {
+    position: relative;
+}
+.homePic {
+    width: 100%;
+}
+.bigValue {
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5em;
+    font-weight: bold;
+    font-style: normal;
 }
