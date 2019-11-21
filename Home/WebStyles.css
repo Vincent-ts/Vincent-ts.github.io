@@ -67,6 +67,10 @@ p {
     font-weight: bold;
     font-style: normal;
 }
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
 #bVexplain {
     text-align: center;
     margin-left: 20%;
