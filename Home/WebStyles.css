@@ -43,6 +43,9 @@ a {
 a:hover {
     color: white;
 }
+a:active {
+    color: grey;
+}
 #mainHeader {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
