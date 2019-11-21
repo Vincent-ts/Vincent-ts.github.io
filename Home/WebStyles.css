@@ -62,3 +62,7 @@ a:hover {
     font-weight: bold;
     font-style: normal;
 }
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
