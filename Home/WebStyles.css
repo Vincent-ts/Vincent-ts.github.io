@@ -73,6 +73,8 @@ p {
 .container {
     width: 75%;
     margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 #bVexplain {
     text-align: center;
@@ -89,10 +91,32 @@ p {
     width: 50%;
     margin-left: 40px;
     margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
 }
 .profileName {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .profileText {
     margin-right: 30%;
+}
+.profilePortrait {
+    height: 70%;
+    width: 65%;
+}
+#resourceList {
+    list-style: none;
+    padding: 0;
+}
+.resource {
+    text-align: center;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.resourceLink {
+    font-size: 2.4em;
 }
