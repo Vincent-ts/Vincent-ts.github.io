@@ -88,6 +88,8 @@ p {
     margin-left: 20%;
     margin-right: 20%;
     font-size: 1.2em;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 #profilesContainer {
     display: flex;
