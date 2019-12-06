@@ -29,6 +29,7 @@ body {
 }
 #topLeft {
     padding-left: 10px;
+    margin: 20px;
 }
 .link {
     display: inline;
