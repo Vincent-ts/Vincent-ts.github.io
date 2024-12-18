@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Engineering Portfolio</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../Home/WebStyles.css" />
+        <script src="../Home/script.js" defer></script>
+    </head>
+    <body>
+        <div>
+            <div id="bignav" class="clearfix">
+                <ul id="navbar">
+                    <li id="name">
+                        <p id="topLeft">
+                           Vincent Stevens
+                        </p>
+                    </li>
+                    <li class="link"><a class="toplink" href="../Contact Info/index.html">Contact Info</a></li>
+                    <li class="link"><a class="toplink" href="../Personal Projects/index.html">Personal Projects</a></li>
+                    <li class="link"><a class="toplink" href="../CV/index.html">CV</a></li>
+                    <li class="link" id="activeLink"><a class="toplink" href="../Engineering Portfolio/index.html">Engineering Portfolio</a></li>
+                    <li class="link"><a class="toplink" href="../Home/index.html">Home</a></li>
+                </ul>
+            </div>
+            <div class="entirePage">
+                <h1 id="mainHeader">
+                    Mechanical Engineering Senior Project
+                </h1>
+                <div class="imgContainer" id="white">
+                    <img src="Senior Project/LIDSSlogo.png" alt="LIDSS logo">
+                    <img src="Senior Project/CPMElogo.png" alt="CP ME logo">
+                </div>
+                <div class="container">
+                    <p>
+                        For my senior project, myself and three other Cal Poly fourth-year mechanical engineering students are being sponsored by Lawrence Livermore National Laboratory.<br>
+                        <br>
+                        We are collaborating directly with representatives from the LLNL Independent Diagnostic Scoring System (LIDSS) team to design, build, and test a prototype of a new battery tray enclosure for ocean-going autonomous rafts.<br>
+                        The current housing for the raft’s batteries is sub-optimal. Its open-air frame means the batteries have experienced corrosion issues and fouling. Additionally, LIDSS wants to use a new battery monitoring system (BMS) on the rafts which will not work in the current housing. Our job is to re-design the raft’s battery housing such that it can be retrofitted onto the current rafts, is easily accessible, protects the batteries from corrosion, and is strong enough to support the weight of the raft.<br>
+                        <br>
+                        As of December 2024 we have finalized our design using a weighted decision matrix, constructed a concept prototype scale model from plywood, and performed Failiure Modes & Effects Analysis (FMEA).
+ 
+                    </p>
+                </div>
+                <div class="project-slideshow">
+                    <div class="slides">
+                      <img src="Senior Project/RaftSchematic.png" alt="Project Image 1">
+                      <img src="Senior Project/F.png" alt="Project Image 2">
+                      <img src="Senior Project/IMG_5756.png" alt="Project Image 3">
+                      <img src="Senior Project/CAD1.png" alt="Project Image 4">
+                    </div>
+                    <button class="prev" onclick="changeSlide(-1)">❮</button>
+                    <button class="next" onclick="changeSlide(1)">❯</button>
+                    <div class="indicator">
+                        <span id="current-slide">1</span> / <span id="total-slides">4</span>
+                      </div>
+                  </div>
+                <h3>
+                    Check Out my <a href="../Personal Projects/index.html">personal projects</a> to see other applications of my skills!
+                </h3>
+            </div>
+        </div>
+    </body>
+</html>
