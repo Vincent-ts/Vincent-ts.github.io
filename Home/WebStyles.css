@@ -129,6 +129,9 @@ p {
     width: auto;
     margin: 15px; /* Adds space between the images */
 }
+.imgContainerB iframe {
+    margin: 15px; /* Adds space between the images */
+}
 #mediumlogo {
     width: 500px;
     height: auto;
